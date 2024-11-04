@@ -8,7 +8,6 @@ from sklearn.ensemble import RandomForestClassifier
 import joblib
 from sklearn.preprocessing import LabelEncoder
 
-##st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Função para exploração do dataset
 def exploracao_dataset():
