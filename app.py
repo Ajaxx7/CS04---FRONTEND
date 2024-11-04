@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 import joblib
 from sklearn.preprocessing import LabelEncoder
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+##st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Função para exploração do dataset
 def exploracao_dataset():
@@ -231,7 +231,7 @@ def predicao():
             "Equilibrio_Entre_Vida_e_Trabalho": [equilibrio_entre_vida_e_trabalho],
         })
     
-        st.title("Oi")
+        st.title("FUNCIONÁRIO COM ATTRITION")
         le = LabelEncoder()
         entrada['Educacao'] = le.fit_transform(entrada['Educacao'])
         entrada['Nivel_do_Trabalho'] = le.fit_transform(entrada['Nivel_do_Trabalho'])
